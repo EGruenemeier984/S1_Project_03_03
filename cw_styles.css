@@ -52,9 +52,9 @@ body>header {
     background-color: rgb(97, 97, 211);
 }
 
-/* This affects the h1's that are direct children of header's that are direct chldren of the body. This makes the font-size 4vw and the color to an rgba value which includes the opacity of the color. Then makes the font-family limelight and cursive and the margins are set to 20px. */
+/* This affects the h1's that are direct children of header's that are direct chldren of the body. This makes the font-size 4em and the color to an rgba value which includes the opacity of the color. Then makes the font-family limelight and cursive and the margins are set to 20px. */
 body>header>h1 {
-    font-size: 4vw;
+    font-size: 4em;
     color: rgba(255, 255, 255, 0.8);
     font-family: Limelight, cursive;
     margin: 20px;
@@ -83,63 +83,63 @@ body>header>h1>span {
     color: rgba(255, 255, 255, 0.8);
     background-color: rgba(51, 51, 51, 0.5);
 }
-
+/* This affects the outline id links making the color an rgb value and the font size 0.8em. */
 /* Outline Styles */
 #outline a {
     color: rgb(51, 51, 51);
     font-size: 0.8em;
 }
-
+/* This affects the h1's that are direct children of the outline id. This makes the h1's centered horizontally on the webpage. */
 #outline>h1 {
     text-align: center;
 }
-
+/* This affects the ordered lists in the outline class and makes the line height 2em the right and left margins 5px. Then makes the list style type upper case roman numerals. */
 #outline ol {
     line-height: 2em;
     margin: 0px 5px 0px 5px;
     list-style-type: upper-roman;
 }
-
+/* The affect the ordered lists in an ordered list in the outline ID and makes the style type uppercase letters instead of bullets. */
 #outline ol ol {
     list-style-type: upper-alpha;
 }
-
+/* This affects the links that have been visited and the ones that haven't and makes them an rgb value. */
 #outline a:visited,
 #outline a:link {
     color: rgb(101, 101, 101);
 }
-
+/* This affects the links that are active and the ones the users hover over and makes them a custom rgb value then takes away the underline from the link. */
 #outline a:active,
 #outline a:hover {
     color: rgb(97, 97, 211);
     text-decoration: underline;
 }
-
+/* This affects content in the section element and makes the background color a custom rgb value. */
 /* Section Styles */
 section {
     background-color: rgb(220, 220, 220);
 }
-
+/* This affects the h1's in an header in a section elment and makes the font sizze 2.2em and the padding on the left 10px. */
 section header h1 {
     font-size: 2.2em;
     padding-left: 10px;
 }
-
+/* This affects the h2's in the article and makes the font size 1.4em. */
 /* Article Styles */
 article h2 {
     font-size: 1.4em;
 }
-
+/* This affects the first letter in the first paragraph and aligns it vertically to the baseline of the surrounding text and makes the font-size 2em. */
 article p:first-of-type:first-letter {
     vertical-align: baseline;
     font-size: 2em;
 }
-
+/* This affects the aside element and makes the content in it have the font size of 0.9em. */
 /* Aside Styles */
 aside {
     font-size: 0.9em;
 }
-
+/* affects the h1's in the aside element and makes the font size 1.4 em and aligns the text center. */
 aside h1 {
     font-size: 1.4em;
     text-align: center;
